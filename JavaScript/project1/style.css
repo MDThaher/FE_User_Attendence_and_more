@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url('./ny.jpg');  
+    background-size: cover; 
+    color: #fff;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.newyear{
+    font-family: 'Inspiration', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+}
+
+.box small{
+    font-size: 10px;
+}

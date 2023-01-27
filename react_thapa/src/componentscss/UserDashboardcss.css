@@ -1,0 +1,32 @@
+.userStatusForm{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    position: sticky;
+    
+}
+
+.tableListPostition{
+    /* position: sticky; */
+}
+
+
+
+.container input, select{
+    padding: 2px 10px;
+    width: 230px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.col-8{
+    margin-left: 30px;
+}
+
+.container .btn-success{
+    width: 80px;
+}
+
+
+
+

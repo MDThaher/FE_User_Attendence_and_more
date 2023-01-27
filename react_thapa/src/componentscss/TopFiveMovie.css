@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerTop{
+    display: inline-block;
+    box-shadow: 20px 20px 50px .5px grey;
+    margin: 25px;
+    width: 300px;
+    height: 260px;
+    background-color: #181818;
+    transition: transform .15s;
+}
+
+.containerTop:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 25px -5px black;
+}
+
+.bodyText{
+    margin: 5px;
+    margin-top: 0;
+}
+
+.bodyText h4{
+    text-align: center;
+    color: #e50914;
+
+}
+
+.bodyText h3{
+    color: #fff;
+    margin-left: 8px;
+}
+
+button{
+    padding: 3px;
+    background: none;
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-left: 4px;
+    color: whitesmoke;
+    border-radius: 2px;
+    padding: 1.5px 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: ease-in-out;
+}

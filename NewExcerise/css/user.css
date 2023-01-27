@@ -1,0 +1,190 @@
+html {
+    min-height: 100%;
+}
+
+body{
+    background: #093028;
+    background: linear-gradient(to right, #237A57, #093028);
+}
+
+
+input{
+    display: block;
+    width: 255.5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+select{
+    width: 132px;
+    margin-left: 1px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.gender{
+    display: block;
+    margin-left: 5px;
+    color: whitesmoke;
+    margin-bottom: 3px;
+}
+
+.genders{
+    display: inline;
+    width: 20px;
+    height: 10px;
+}
+
+.btn-primary{
+    width: 110px;
+    margin-left: 80px;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #237A57;
+    color: whitesmoke;
+    margin-top: 8px;
+
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    transition: 0.15s;
+    font-size: larger;
+    font-weight: bold;
+}
+.btn-primary:active{
+    opacity: 0.5;
+}
+
+.userContainerUpdate{
+    
+    background-color: black;
+    width: 280px;
+    height: 222px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=text]::placeholder{
+    color: black;
+    opacity: 0.9;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.divget{
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    padding: 1px;
+    width: 250px;
+    margin-left: 18px;
+}
+
+.getno{
+    width: 180px;
+    display: inline;
+    height: 17px;
+    margin-left: 18px;
+}
+
+.getsubmit{
+    display: inline;
+    width: 55px;
+    background-color: #237A57;
+    color: whitesmoke;
+    
+}
+
+.getsubmit:hover{
+    background-color: lightsalmon;
+    color: black;
+    font-weight: bold;
+}
+.getsubmit:active{
+    background-color: darkred;
+    color: black;
+    opacity: 0.9;
+    font-weight: lighter;
+}
+
+.userContainerGet{
+    padding: 10px;
+    background-color: black;
+    width: 300px;
+    border-radius: 12px; 
+}
+
+.tableHeading{
+    text-align: center;
+    font-size: x-large;
+    margin: 6px;
+    color: white;
+}
+.table{
+    background-color: white;
+    margin-left: 140px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+table,thead, tr, td,th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+thead{
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+
+#delete{
+    background-color: black;
+    border: none;
+    color: white;
+    font-display: initial;
+    border-radius: 5px;
+    font-size: x-small;
+    padding: 4px;
+}
+
+#delete:hover{
+    transition: 0.15s;
+    background-color: red;
+    color: black;
+    cursor: not-allowed;
+}
+
+#edit{
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: x-small;
+    padding: 4px 9px;
+}
+
+#edit:hover{
+    transition: 0.15s;
+    background-color: cornflowerblue;
+    color: black;
+    cursor: not-allowed;
+}
+
+

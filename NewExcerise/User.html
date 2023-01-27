@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/user.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="userContainerUpdate">
+        <form id="form1" autocomplete="off">
+          <input type="text" placeholder="User Name" id="name" />
+          <input type="text" placeholder="Enter email" id="email" />
+          <input type="text" placeholder="Enter address" id="address" />
+          <input type="text" placeholder="Enter pincode" id="pincode" />
+
+          <select id="city">
+            <option value="Select city">Select city</option>
+            <option value="Vellore">Vellore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Kochi">Kochi</option>
+          </select>
+
+          <select id="state">
+            <option value="Select state">Select state</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+          </select>
+
+          <div class="gender" id="gen">
+            Male<input
+              class="genders"
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Male"
+              onchange
+            />
+            Female<input
+              class="genders"
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Female"
+              onchange
+            />
+          </div>
+
+          <input type="text" placeholder="Enter Unique ID" id="Sno" value=""/>
+          <input class="btn btn-primary" type="submit" value="submit"/>
+        </form>
+      </div>
+      <div class="userContainerGet">
+        <form action="" id="form2">
+          <div class="divget">Name&nbsp;&nbsp;&nbsp;&nbsp;: <span id="nameid"></span> </div>
+          <div class="divget">Email&nbsp;&nbsp;&nbsp;&nbsp;: <span id="emailid"></span> </div>
+          <div class="divget">Gender&nbsp;&nbsp;: <span id="genderid"></span> </div>
+          <div class="divget">Address&nbsp;: <span id="addressid"></span> </div>
+          <div class="divget">Pincode&nbsp;: <span id="pincodeid"></span> </div>
+          <div class="divget">city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="cityid"></span> </div>
+          <div class="divget">state&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="stateid"></span> </div>
+          <input class="getno" type="number" name="number" id="no1" placeholder="Enter User ID">
+          <input class="getsubmit" type="submit" value="Get">
+        </form>
+      </div>
+    </div>
+    <p class="tableHeading">List of Users</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Address</th>
+          <th scope="col">Pincode</th>
+          <th scope="col">City</th>
+          <th scope="col">State</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody id="table_body">
+      </tbody>
+    </table>
+    <script src="script/user.js"></script>
+  </body>
+</html>

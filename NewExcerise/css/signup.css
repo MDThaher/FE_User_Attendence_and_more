@@ -1,0 +1,129 @@
+body{
+    background: rgb(148,187,233);
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 97%); 
+}
+
+.container1{
+    margin: 5px;
+    background-color: #fff;
+    padding: 15px;
+    width: 250px;
+    height: 110px;
+    /* margin: 140px 355px;  */
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+
+.signup{
+    display: block;
+    width: 250px;
+    height: 30px;
+    background-color: #1877f2;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.signup:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.15s;
+}
+.signup:active{
+    opacity: 0.5;
+}
+
+.email{
+
+    display: block;
+    margin-top: 10px;
+    align-content: center;
+    margin-bottom: 10px;
+    width: 244px;
+    height: 27px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.name{
+    width: 117px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 19px;
+}
+
+.container2{
+    margin: 5px;
+    background-color: #fff;
+    padding: 15px;
+    width: 250px;
+    height: 140px;
+    /* margin: 140px 355px;  */
+    border-radius: 8px;
+}
+
+.pickup, .drop{
+    display: block;
+    width: 240px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: #D0D6D6;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding-left: 8px;
+    
+}
+
+.pickup::placeholder, .drop::placeholder{
+    color:black;
+    opacity: 0.9;
+}
+
+.rideloginp{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.requestbtn, .schedulebtn{
+    border: none;
+    margin-top: 5px;
+    font-size: x-small;
+    padding: 8px;
+}
+
+
+.requestbtn{
+    background-color: black;
+    color: #fff;
+}
+
+.schedulebtn{
+    background-color: #D0D6D6;
+    color: #000;
+    margin-left: 20px;
+}
+
+.requestbtn:hover,.schedulebtn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.10s;
+}
+
+.requestbtn:active,.schedulebtn:active{
+    opacity: 0.4;
+}
+
+
+.parentdiv{
+
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    
+}
+

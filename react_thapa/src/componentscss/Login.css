@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-LoginContainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../netimg/pexels-trinity-kubassek-288621.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto;
+
+}
+
+.login-Loginbox{
+    background: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255));
+    width: 40%;
+    height: 50%;
+    border-radius: 15px;
+    background: transparent;
+    display: flex;
+    margin: auto;
+    
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 5px;
+}
+
+.login-LoginButton {
+    border: 0.5px solid yellow;
+    border-radius: 2px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 70px;
+    font-size: medium;
+    margin-top: 5px;
+    margin-left: 0;
+    height: 30px;
+    color: tomato;
+}
+
+.login-input{
+    width: 220px;
+    border: 0.5px solid darkturquoise;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    height: 30px;
+    border-radius: 2px;
+    color: white;
+    font-size: large;
+    font-weight: 200;
+    caret-color: deeppink;
+}
+
+.login-label{
+    font-size: larger;
+    font-weight: 200;
+    color: yellow;
+}
+
+.check{
+    margin-top: 8px;
+    width: 15px;
+    height: 13px;
+}
+
+.login-span{
+    color: cadetblue;
+}
